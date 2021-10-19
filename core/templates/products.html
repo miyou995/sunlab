@@ -1,0 +1,190 @@
+
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- ASIDE -->
+					<div id="aside" class="col-md-3">
+						<div id="collapseFilters" >
+						<div class="aside">
+							<form id="filters_form"  method="GET">
+								{% csrf_token %}
+								<div class="sidebar-categores-box mt-sm-30 mt-xs-30">
+									<div class="sidebar-title">
+										<h2>Filtrer par</h2>
+									</div>
+									<input name="name" class="input search-input" placeholder="Recherchez ici">
+									<!-- category-sub-menu start -->
+									<div class="category-sub-menu">
+										<ul>
+											<li class="has-sub"><a href="#">Gammes</a>
+												<ul>
+													{% for gamme in gammes %}
+														<li>
+															<div class="input-checkbox">
+																<input type="checkbox" name="gamme" id="gamme-{{gamme.id}}" value="{{gamme.id}}" >
+																<label for="gamme-{{gamme.id}}">
+																	<span></span>
+																	{{gamme.name}}
+																	<small>({{gamme.products.all|length}})</small>
+																</label>
+															</div>
+														</li>
+													{% endfor %} 
+												</ul>
+											</li>
+											<li class="has-sub"><a href="#">Categories</a>
+												<ul>
+													{% for cat in categories %}
+														<li>
+															<div class="input-checkbox">
+																<input type="checkbox" name="sous_category__category" id="category-{{cat.id}}" value="{{cat.id}}" >
+																<label for="category-{{cat.id}}">
+																	<span></span>
+																	{{cat.name}}
+																	<small>({{cat.product_count}})</small>
+																</label>
+															</div>
+														</li>
+													{% endfor %} 
+												</ul>
+											</li>
+											<li class="has-sub"><a href="#">Sous Categories</a>
+												<ul>
+													{% for sub in sous_categories %}
+														<li>
+															<div class="input-checkbox">
+																<input type="checkbox" name="sous_category" id="subcat-{{sub.id}}" value="{{sub.id}}" >
+																<label for="subcat-{{sub.id}}">
+																	<label for="subcat-{{sub.id}}">
+																	<span></span>
+																	{{sub.name}}
+																	<small>({{sub.products.all|length}})</small>
+																</label>
+															</div>
+														</li>
+													{% endfor %}
+												</ul>
+											</li>
+											<li class="has-sub"><a href="#">Tags</a>
+												<ul>
+													{% for tag in tags %}
+														<li>
+															<div class="input-checkbox">
+																<input type="checkbox" name="tag" id="tag-{{tag.id}}" value="{{tag.id}}" >
+																<label for="tag-{{tag.id}}">
+																	<label for="tag-{{tag.id}}">
+																	<span></span>
+																	{{tag.name}}
+																	<small>({{tag.products.all|length}})</small>
+																</label>
+															</div>
+														</li>
+													{% endfor %}
+												</ul>
+											</li>
+											<li class="has-sub"><a href="#">Types de cheuveux</a>
+												<ul>
+													{% for ch in cheveux %}
+														<li>
+															<div class="input-checkbox">
+																<input type="checkbox" name="cheveux" id="ch-{{sub.id}}" value="{{ch.id}}" >
+																<label for="ch-{{ch.id}}">
+																	<label for="ch-{{ch.id}}">
+																	<span></span>
+																	{{ch.name}}
+																	<small>({{ch.products.all|length}})</small>
+																</label>
+															</div>
+														</li>
+													{% endfor %}
+												</ul>
+											</li>
+										</ul>
+									</div>
+									<div class="filter-sub-area" style="margin-top: 18px;margin-bottom: 18px">
+											
+										<div class="input-checkbox">
+											<input name="new" type="checkbox" id="new">
+											<label for="new">
+												<span></span>
+												Nouveau
+											</label>
+										</div>
+										<div class="input-checkbox">
+											<input name="top" type="checkbox" id="top">
+											<label for="top">
+												<span></span>
+												Meilleurs Ventes
+											</label>
+										</div>
+									</div>
+											<div class="price-filter">
+												<h4 class="aside-title">Prix</h4>
+												<div id="price-slider"></div>
+												<div class="input-number price-min">
+													<input name="price_min" id="price-min" type="number">
+													<span class="qty-up">+</span>
+													<span class="qty-down">-</span>
+												</div>
+												<span>-</span>
+												<div class="input-number price-max">
+													<input name="price_max" id="price-max" type="number">
+													<span class="qty-up">+</span>
+													<span class="qty-down">-</span>
+												</div>
+											</div>
+									</div>
+								</div>
+							
+								<button class=" text-uppercase buy-directly btn-block mt-3" type="submit" style="margin-top: 8px;">Filtrer</button>
+							</form>
+						</div>
+					</div>
+					<div id="store" class="col-md-9">
+						<div class="row" id="ajax-products">
+							
+							{% for product in filters.qs %}
+								<div class="col-xs-6 col-md-4 col-xl-3" >
+									{% include "snipetts/product-block.html" %}
+								</div>
+							{% empty %}
+							<h2>Aucun produit trouver pour votre recherche</h2>
+							{% endfor %}
+						</div>
+							
+						  <ul class="store-pagination">
+							{% if page_obj.has_previous %}
+								<li><a href="?page={{ page_obj.previous_page_number }}"><i class="fa fa-angle-left"></i></a></li>
+							{% endif %}
+							{% for contact in page_obj.paginator %}
+								<li 
+									{% if contact.number is page_obj.number %}
+									class="active"
+									{% endif %}
+								>
+									<a href="?page={{ contact.number }}" > {{ contact.number }} </a>
+								</li>
+							{% endfor %}
+							{% if page_obj.has_next %}
+								<!-- <a href="?page={{ page_obj.next_page_number }}">next</a> -->
+								<li><a href="?page={{ page_obj.next_page_number }}"><i class="fa fa-angle-right"></i></a></li>
+							{% endif %}
+						</ul>
+
+						<!-- store bottom filter -->
+					</div>
+					<!-- /STORE -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+{% endblock content %}

@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+  
+<section class="cart-section">
+    <div class="auto-container">
+
+        <!--Cart Outer-->
+        <div class="cart-outer">
+            <div class="table-outer">
+                <table class="cart-table">
+                    <thead class="cart-header">
+                        <tr>
+                            <th>Aperçu</th>
+                            <th class="prod-column">Produit</th>
+                            <th class="price">Prix</th>
+                            <th>Quantité</th>
+                            <th>Total<small>(DA)</small></th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in cart %}
+                            {% with product=item.product %}
+                                <tr>
+                                    <td class="prod-column">
+                                        <div class="column-box">
+                                            <figure class="prod-thumb">
+                                                <a href="{{product.get_absolute_url}}">
+                                                    {% if product.photos.all.0 %}
+                                                    <div class="product-preview">
+                                                        <img style="  width: 100%; height: auto;" src="{{product.photos.all.0.photo.url}}" alt="{{product.name}}">
+                                                    </div>
+                                                {% else %}
+                                                    <div class="product-preview">
+                                                        <img src="{% static "img/no-photo.jpg" %}" alt="">
+                                                    </div>
+                                                {% endif %}
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </td>
+                                    <td><h4 class="prod-title">{{product.name}}</h4></td>
+                                    <td class="sub-total">{{item.price}}</td>
+                                    
+                                    <td class="qty"><div class="item-quantity"><div class="input-number">
+                                        <form action="{% url 'cart:cart_add' product.id %}" method="post">
+                                                {% csrf_token %}
+                                                {{ item.update_quantity_form.quantity }}
+                                                {{ item.update_quantity_form.override }}
+                                            <span class="qty-up">
+                                                <button style="height:20px;width: 25px;border: none;border-right: 1px solid #E4E7ED;border-top: 1px solid #E4E7ED;background-color: #fff;" type="submit">
+                                                    +
+                                                </button>
+                                            </span>
+                                            <span class="qty-down">
+                                                <button style="height:20px;width: 25px;border: none;border-right: 1px solid #E4E7ED;border-bottom: 1px solid #E4E7ED;background-color: #fff;" type="submit">
+                                                -
+                                                </button>
+                                            </span>
+                                        </form>
+                                    </div></div></td>
+                                    <td class="total-price">{{item.total_price}}</td>
+                                    <td>
+                                        <form action="{% url 'cart:cart_remove' product.id %}" method="post">
+                                            {% csrf_token %}
+                                            <button type="submit" style="border: none;background-color: #fff;" class="remove-btn">
+                                                <span class="fa fa-trash-o"></span>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            {% endwith %}
+                        {% endfor %}
+                        {% if cart.coupon %}
+                            <tr class="subtotal">
+                                <td>Sous Total</td>
+                                <td colspan="4"></td>
+                                <td class="num">{{ cart.get_total_price|floatformat:2 }} DA</td>
+                            </tr>
+                            <tr>
+                                <td><strong>{{ cart.coupon.code }}</strong></td>
+                                <td colspan="4"></td>
+                                <td class="num neg">
+                                    -{{ cart.get_discount|floatformat:2 }} DA
+                                </td>
+                            </tr>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="cart-options clearfix">
+                <div class="pull-left">
+                    <div class="apply-coupon clearfix">
+                        <form action="{% url "coupons:apply" %}" method="post">
+                        <div class="form-group clearfix">
+                                {% csrf_token %}
+                                <input type="text" name="code" placeholder="Coupon Code">
+                            </div>
+                            <div class="form-group clearfix">
+                                <button type="submit" class="theme-btn coupon-btn">Apply Coupon</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="row clearfix " style="margin-top: 15px;">
+                <div class="column col-lg-7 col-md-5 col-sm-12">
+                </div>
+                <div class="column col-lg-5 col-md-7 col-sm-12 mt-5">
+                    <!--Totals Table-->
+                    <ul class="totals-table">
+                        <li><h3> Total Panier</h3></li>
+                        <li class="clearfix total"><span class="col">Total</span><span class="col price">{{cart.get_total_price_after_discount}} DZD</span></li>
+                        <li class="text-right">
+                            <a class="theme-btn proceed-btn" href="{% url 'order:order_create' %}">
+                                Procéder au paiement
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--End Cart Section-->
+
+{% endblock content %}

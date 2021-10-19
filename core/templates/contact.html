@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block content %}
+  
+<div class="container contact_container" style="margin-top: 100px;">
+{% comment %}
+  
+    <!-- Map Container -->
+
+    <!-- <div class="row">
+        <div class="col">
+            <div id="google_map">
+                <div class="map_container">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+{% endcomment %}
+
+    <div class="row">
+
+        <div class="col-lg-6 contact_col">
+            <div class="contact_contents">
+                <h1>Contactez-nous</h1>
+                <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
+                <div>
+                    <p>
+                        <a href="tel:{{business.phone}}"><i class="fa fa-phone"></i>&nbsp {{business.phone}}</a>
+
+                    </p>
+                    <p>
+                        <a href="mailto:{{business.email}}"><i class="fa fa-envelope-o"></i>&nbsp {{business.email}}</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a type="button" data-toggle="modal" data-target="#mapsModal" href="#"><i class="fa fa-map-marker"></i>&nbsp {{business.adress}}</a>
+                        
+                    </p>
+                </div>
+                <div>
+                    <p>Horaires d'ouverture: 8.00-17.00 Dim-Jeu</p>
+                </div>
+            </div>
+
+            <!-- Follow Us -->
+
+            <div class="follow_us_contents">
+                {% if business.facebook or business.insta %}
+                <h1>Suivez-nous</h1>
+                {% endif %}
+                <ul class="social row d-flex" style="display: flex;">
+                    {% if business.facebook %}
+                        <li><a href="{{business.facebook}}" style="background-color: #3a61c9;"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    {% endif %}
+                    {% if business.insta %}
+                        <li><a href="{{business.insta}}" style="background-color: #8f6247;"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    {% endif %}
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 get_in_touch_col">
+            <div class="get_in_touch_contents">
+                <h1>Entrez en Contact</h1>
+                <p>Pour toute question ou commentaire, n’hésitez pas à utiliser notre formulaire de contact !</p>
+                <form action="{% url 'core:contact' %}" method=POST >
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <input id="input_name" class="form_input input_name input_ph" type="text" name="name" placeholder="Nom" required="required" >
+                    </div>
+                    <div class="form-group">
+                        <input id="input_email" class="form_input input_email input_ph" type="email" name="email" placeholder="Email" required="required" >
+                    </div>
+                    <div class="form-group">
+                        <input id="input_website" class="form_input input_website input_ph" type="text" name="phone" placeholder="Téléphone" required="required" >
+                    </div>
+                    <div class="form-group">
+                        <input id="input_website" class="form_input input_website input_ph" type="text" name="subject" placeholder="Sujet" required="required" >
+                    </div>
+                    <div class="form-group">
+                        <textarea id="input_message" class="input_ph input_message" name="message"  placeholder="Message" rows="3" required ></textarea>
+                    </div>
+                    <div>
+                        <button id="review_submit" type="submit" class="red_button message_submit_btn trans_300" value="Submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock content %}
