@@ -193,3 +193,9 @@ sunlab_ENVIRONMENT = config("sunlab_ENVIRONMENT", default="local")
 # SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # SESSION_COOKIE_SECURE = True
+
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
