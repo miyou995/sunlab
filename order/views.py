@@ -110,9 +110,10 @@ def admin_order_pdf(request, order_id):
     response = HttpResponse(content_type='application/pdf' )
     response['Content-Disposition' ] = f'filename=order_{order.id}.pdf'
     business   = Business.objects.get(id=1).name
-    html = render_to_string('order_pdf.html' , {'order' : order, 'business': business})
+    business_logo   = Business.objects.get(id=1).logo.url
+    html = render_to_string('order_pdf.html' , {'order' : order, 'business': business, 'business_logo':business_logo})
     # stylesheets=[weasyprint.CSS(str(settings.STATIC_ROOT) + 'css/pdf.css' )]
-    weasyprint.HTML(string=html).write_pdf(response)
+    weasyprint.HTML(string=html, base_url=request.build_absolute_uri()).write_pdf(response)
     return response
 
 

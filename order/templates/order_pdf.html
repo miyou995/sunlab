@@ -68,7 +68,12 @@
         </style>
     </head>
     <body>
+        {% if business_logo %}
+          
+        <img style="max-width:180px;" src="{{business_logo}}" alt="{{business}}">
+        {% endif %}
         <h1>{{business}}</h1>
+
         <p>
             Commande Numéro° {{ order.id }} <br>
             <span class="secondary"> {{ order.created|date:"M d, Y" }} </span>
