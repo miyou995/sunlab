@@ -1,0 +1,3693 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-08-15T11:08:40.315Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Photos object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-08-15T11:08:56.660Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Photos object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-08-15T11:16:36.713Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Photos object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Grande photo (1920 x 570)\", \"Medium photo (720 x 540)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-08-15T11:41:43.005Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Shampoing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-08-15T11:42:41.450Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "shampoing professionnel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-08-15T11:48:28.259Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Kelly",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-08-15T11:52:13.831Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Cheveux secs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-08-15T11:52:21.937Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Shampoing clarifiant « kelly de sunlab »",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-08-15T15:09:58.481Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-08-15T15:46:11.946Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo n\\u00e9gatif\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-08-16T08:48:41.869Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "cheuvuex",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nom\", \"URL\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-08-16T08:49:00.806Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "cheuvuex",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-08-16T08:55:00.917Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "cheuveux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nom\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-08-16T08:55:07.533Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "cheuveux",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-08-16T08:55:21.089Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "shampoing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nom\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-08-16T08:55:36.249Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "shampoing",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-08-16T09:01:19.522Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Le Petit Marseillais Shampooing Blond Ensoleillé Cheveux Blonds à Châtains Clairs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-08-16T09:07:17.717Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "cheuveux noirs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-08-16T09:07:27.020Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "2",
+        "object_repr": "shampoins",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-08-16T09:07:40.964Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Sunsilk Shampoing Brillance Des Cheveux Noirs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-08-16T09:15:26.519Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "cheuveux colorés",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-08-16T09:15:40.322Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "3",
+        "object_repr": "Méches",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-08-16T09:15:46.417Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Evoluderm Shampoing Régénérant - À La Kératine - Cheveux Colorés",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-08-16T09:16:21.078Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Gliss",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-08-16T09:17:23.633Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Schwarzkopf Gliss Hair Repair Ultimate Huile Precieuse",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-08-16T09:19:11.773Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Sois Corp",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-08-16T09:19:21.966Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Produits de Bain",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-08-16T09:19:28.914Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Garnier Fructis Pack Garnier Routine Hair Food papaye 3 Unités",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-08-16T09:20:16.715Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Garnier Fructis Pack Garnier Routine Hair Food papaye 3 Unités",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo1\", \"Photo2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-08-17T11:06:49.266Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-08-17T11:10:08.524Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Adresse\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-08-17T11:15:16.332Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Shampoing clarifiant « kelly de sunlab »",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-08-17T11:16:42.408Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "fbfdb",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-08-18T08:45:32.560Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Fraise",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-08-18T08:45:39.992Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "2",
+        "object_repr": "Chocolat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-08-18T08:46:22.609Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "3",
+        "object_repr": "vanille",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-08-18T12:46:56.068Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Shampoing clarifiant « kelly de sunlab »",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (1)\"}}, {\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (2)\"}}, {\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (3)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-08-18T13:15:27.698Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Le Petit Marseillais Shampooing Blond Ensoleillé Cheveux Blonds à Châtains Clairs",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (4)\"}}, {\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (5)\"}}, {\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (6)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-08-18T14:11:35.363Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Shampoing clarifiant « kelly de sunlab »",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parfum\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-08-18T14:40:03.519Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Le Petit Marseillais Shampooing Blond Ensoleillé Cheveux Blonds à Châtains Clairs",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parfum\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-08-18T14:57:14.528Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Soin Corp",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nom\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-08-18T14:57:19.108Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Soin Corp",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-08-18T14:58:15.750Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "professionelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-08-18T15:02:01.383Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "shampoin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-08-18T15:06:39.826Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Blida",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-08-18T15:06:54.425Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Blida",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-08-18T15:07:04.066Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Boufarik",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-08-18T15:44:21.180Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "coup",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2021-08-18T16:03:10.156Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "bouarafa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2021-08-18T16:05:09.959Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "commande N°:  5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pay\\u00e9\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2021-08-19T09:05:28.799Z",
+        "user": 1,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "Banner object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2021-08-19T09:05:50.126Z",
+        "user": 1,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Slide object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2021-08-22T10:01:15.257Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Bendjebba Rania",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-08-22T10:01:15.309Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "svdszd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-08-22T10:15:55.171Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-08-22T10:16:38.503Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-08-22T10:24:32.008Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-08-22T10:26:30.682Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "4",
+        "object_repr": "new",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2021-08-22T10:26:36.433Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Schwarzkopf Gliss Hair Repair Ultimate Huile Precieuse",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tag\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2021-08-22T15:35:43.348Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "coup",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Coupons restant\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2021-08-22T21:11:56.894Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "coup",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Coupons restant\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2021-08-23T13:32:54.705Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2021-08-23T13:33:09.728Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2021-08-23T13:34:04.333Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2021-08-23T13:41:36.141Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Sunsilk Shampoing Brillance Des Cheveux Noirs",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (7)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2021-08-23T13:43:59.926Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Sunsilk Shampoing Brillance Des Cheveux Noirs",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (7)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2021-08-23T13:46:18.907Z",
+        "user": 1,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Slide object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo 1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2021-08-23T13:49:15.335Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Business object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2021-08-23T13:51:31.713Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Sunsilk Shampoing Brillance Des Cheveux Noirs",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (7)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2021-08-23T13:57:13.012Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Gel douche",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2021-08-23T13:58:31.460Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "4",
+        "object_repr": "Aloé vera",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2021-08-23T13:58:39.957Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "5",
+        "object_repr": "Yaourt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2021-08-23T13:58:51.663Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "6",
+        "object_repr": "Ananas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2021-08-23T13:58:56.429Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "7",
+        "object_repr": "Péche",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2021-08-23T13:59:01.144Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "8",
+        "object_repr": "Citron",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2021-08-23T13:59:34.804Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2021-08-23T14:02:16.149Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2021-08-23T14:08:08.989Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2021-08-23T14:09:23.784Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (9)\"}}, {\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2021-08-23T14:10:54.678Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2021-08-23T14:12:40.639Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "19",
+        "object_repr": "commande N°:  19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Confirm\\u00e9\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2021-08-23T14:12:53.571Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "19",
+        "object_repr": "commande N°:  19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pay\\u00e9\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2021-08-23T14:22:47.325Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (10)\"}}, {\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2021-08-23T14:24:09.561Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2021-08-23T14:30:43.258Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2021-08-23T14:31:51.043Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gel douche Kelly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (8)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2021-08-23T14:34:39.583Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Evoluderm Shampoing Régénérant - À La Kératine - Cheveux Colorés",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (11)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2021-08-23T14:41:38.357Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Schwarzkopf Gliss Hair Repair Ultimate Huile Precieuse",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (12)\"}}, {\"added\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (13)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2021-08-23T14:42:35.823Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Schwarzkopf Gliss Hair Repair Ultimate Huile Precieuse",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"photo product\", \"object\": \"PhotoProduct object (12)\", \"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2021-10-17T16:39:20.563Z",
+        "user": 1,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Slide object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Lien\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2021-10-17T16:42:26.525Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "coup",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Valide jusqu'\\u00e0\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2021-10-17T16:43:11.596Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "20",
+        "object_repr": "commande N°:  20",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pay\\u00e9\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add gamme",
+        "content_type": 7,
+        "codename": "add_gamme"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change gamme",
+        "content_type": 7,
+        "codename": "change_gamme"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete gamme",
+        "content_type": 7,
+        "codename": "delete_gamme"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view gamme",
+        "content_type": 7,
+        "codename": "view_gamme"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Catégorie",
+        "content_type": 8,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Catégorie",
+        "content_type": 8,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Catégorie",
+        "content_type": 8,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Catégorie",
+        "content_type": 8,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Sous Catégorie",
+        "content_type": 9,
+        "codename": "add_subcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Sous Catégorie",
+        "content_type": 9,
+        "codename": "change_subcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Sous Catégorie",
+        "content_type": 9,
+        "codename": "delete_subcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Sous Catégorie",
+        "content_type": 9,
+        "codename": "view_subcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Produit",
+        "content_type": 10,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Produit",
+        "content_type": 10,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Produit",
+        "content_type": 10,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Produit",
+        "content_type": 10,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add contact form",
+        "content_type": 11,
+        "codename": "add_contactform"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change contact form",
+        "content_type": 11,
+        "codename": "change_contactform"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete contact form",
+        "content_type": 11,
+        "codename": "delete_contactform"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view contact form",
+        "content_type": 11,
+        "codename": "view_contactform"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add photos",
+        "content_type": 12,
+        "codename": "add_photos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change photos",
+        "content_type": 12,
+        "codename": "change_photos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete photos",
+        "content_type": 12,
+        "codename": "delete_photos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view photos",
+        "content_type": 12,
+        "codename": "view_photos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add coupon",
+        "content_type": 13,
+        "codename": "add_coupon"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change coupon",
+        "content_type": 13,
+        "codename": "change_coupon"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete coupon",
+        "content_type": 13,
+        "codename": "delete_coupon"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view coupon",
+        "content_type": 13,
+        "codename": "view_coupon"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add Wilaya",
+        "content_type": 14,
+        "codename": "add_wilaya"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change Wilaya",
+        "content_type": 14,
+        "codename": "change_wilaya"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete Wilaya",
+        "content_type": 14,
+        "codename": "delete_wilaya"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view Wilaya",
+        "content_type": 14,
+        "codename": "view_wilaya"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add Commune",
+        "content_type": 15,
+        "codename": "add_commune"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change Commune",
+        "content_type": 15,
+        "codename": "change_commune"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete Commune",
+        "content_type": 15,
+        "codename": "delete_commune"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view Commune",
+        "content_type": 15,
+        "codename": "view_commune"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add Commande",
+        "content_type": 16,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change Commande",
+        "content_type": 16,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete Commande",
+        "content_type": 16,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view Commande",
+        "content_type": 16,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add order item",
+        "content_type": 17,
+        "codename": "add_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change order item",
+        "content_type": 17,
+        "codename": "change_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete order item",
+        "content_type": 17,
+        "codename": "delete_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view order item",
+        "content_type": 17,
+        "codename": "view_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add cheveux",
+        "content_type": 18,
+        "codename": "add_cheveux"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change cheveux",
+        "content_type": 18,
+        "codename": "change_cheveux"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete cheveux",
+        "content_type": 18,
+        "codename": "delete_cheveux"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view cheveux",
+        "content_type": 18,
+        "codename": "view_cheveux"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add tag",
+        "content_type": 19,
+        "codename": "add_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change tag",
+        "content_type": 19,
+        "codename": "change_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete tag",
+        "content_type": 19,
+        "codename": "delete_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view tag",
+        "content_type": 19,
+        "codename": "view_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add Photos du site",
+        "content_type": 20,
+        "codename": "add_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change Photos du site",
+        "content_type": 20,
+        "codename": "change_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete Photos du site",
+        "content_type": 20,
+        "codename": "delete_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view Photos du site",
+        "content_type": 20,
+        "codename": "view_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add Infomations",
+        "content_type": 21,
+        "codename": "add_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change Infomations",
+        "content_type": 21,
+        "codename": "change_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete Infomations",
+        "content_type": 21,
+        "codename": "delete_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view Infomations",
+        "content_type": 21,
+        "codename": "view_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add parfum",
+        "content_type": 22,
+        "codename": "add_parfum"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change parfum",
+        "content_type": 22,
+        "codename": "change_parfum"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete parfum",
+        "content_type": 22,
+        "codename": "delete_parfum"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view parfum",
+        "content_type": 22,
+        "codename": "view_parfum"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add photo product",
+        "content_type": 23,
+        "codename": "add_photoproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change photo product",
+        "content_type": 23,
+        "codename": "change_photoproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete photo product",
+        "content_type": 23,
+        "codename": "delete_photoproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view photo product",
+        "content_type": 23,
+        "codename": "view_photoproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add banner",
+        "content_type": 24,
+        "codename": "add_banner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change banner",
+        "content_type": 24,
+        "codename": "change_banner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete banner",
+        "content_type": 24,
+        "codename": "delete_banner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view banner",
+        "content_type": 24,
+        "codename": "view_banner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add slide",
+        "content_type": 25,
+        "codename": "add_slide"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change slide",
+        "content_type": 25,
+        "codename": "change_slide"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete slide",
+        "content_type": 25,
+        "codename": "delete_slide"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view slide",
+        "content_type": 25,
+        "codename": "view_slide"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$bpYdFG1ygFjzvbYMuVAzRz$0XAWgXYkfSB0FBtYD4OveGGFpsJ/ogoBqMHCykG84Tw=",
+        "last_login": "2021-10-17T16:39:00.211Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-08-15T10:06:25.377Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "core",
+        "model": "gamme"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "core",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "core",
+        "model": "subcategory"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "core",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "core",
+        "model": "contactform"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "core",
+        "model": "photos"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "coupons",
+        "model": "coupon"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "delivery",
+        "model": "wilaya"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "delivery",
+        "model": "commune"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "order",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "order",
+        "model": "orderitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "atributes",
+        "model": "cheveux"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "atributes",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "core",
+        "model": "business"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "business",
+        "model": "business"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "atributes",
+        "model": "parfum"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "core",
+        "model": "photoproduct"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "business",
+        "model": "banner"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+        "app_label": "business",
+        "model": "slide"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5ykzee0v3q3azl70k3eem1t8o9ksx697",
+    "fields": {
+        "session_data": ".eJxVjDsOgzAQBe-ydWTZ_BYo03MGtD8HkggkMBXi7gkSDe2bmbeD0JKg3Y8H9LSlod9WW_pRoYUAt41JPjadQN80vWYn85SWkd2puIuurpvVvs_LvR0MtA7_Wjj4ULPGqrIszxpUUySLAX1DynksvFpAiiJcYln7qFxIhlSjhjIyHD9Rzzxo:1mFx4Q:rI3tIT9zxPXBK_4yFOW1-993t_mLJuEsHZjjBnaR08Y",
+        "expire_date": "2021-08-31T11:15:50.426Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6et0vz0zu70ih5k579k670b164nslqqy",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgpUNduvcMZIYZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uzsur0uxGmh9Qd8B3rbdZprusykd4VfdCmrzPL83K4fwcFW_nWiayxgTgPg7jOjcDCgJItmBGZutwbFguYUyIPPpjM1CcHGICtz6TeHwqLORw:1mGO2g:UHD2yXzJNwEnAC0UUiO8aaZvaW0yODryq5Lx9LZtw14",
+        "expire_date": "2021-09-01T16:03:50.756Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9fn8sc7bm7cwg0emxyhqz4ucy6gokzna",
+    "fields": {
+        "session_data": ".eJxVjjkOgzAURO_iOrJstg-U6XMG9Bc7kCAbAa4Qdw9EFEn7ZuZpNtVhWvsuLW7uBlGtsur2ywj57cIZyAvDM2qOYZ0H0mdFX-miH1HceL-6f4Iel_5YM1ljaxJfVS7LswbECaDzFkyDQrkvjDgL6JmphLI2XqjgDLAGsaWnQ8oxTTF8X4Y0jgfAeVXttu8fj6BCjQ:1mGeU5:wtP3HxE3_6vPZMa87TmY6w8gIjIm2pP2rEs6VjXFzdo",
+        "expire_date": "2021-09-02T09:37:13.580Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "d11lz0kx6wd682qs1lhbfujzd5xfabfy",
+    "fields": {
+        "session_data": ".eJxVjjkOgzAURO_iOrJstg-U6XMG9Bc7kCAbAa4Qdw9EFEn7ZuZpNtVhWvsuLW7uBlGtsur2ywj57cIZyAvDM2qOYZ0H0mdFX-miH1HceL-6f4Iel_5YM1ljaxJfVS7LswbECaDzFkyDQrkvjDgL6JmphLI2XqjgDLAGsaWnQ8oxTTF8X4Y0jgfAeVXttu8fj6BCjQ:1mHpW3:dxB-WAgcQii7wgqI0mJ7HLvhZjjyHvKuXUsC3MGpV_E",
+        "expire_date": "2021-09-05T15:36:07.758Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "es4278poc468hm2bru42n7s4cd6psd58",
+    "fields": {
+        "session_data": "eyJjYXJ0Ijp7fX0:1meB7t:r_WDoGZwbLCGQ7HjgPVyQmcCLuqJF3yyYZQzg3hwL_I",
+        "expire_date": "2021-11-06T07:07:33.052Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ffmy17w38ja5j7uxjhtm3o8pa1t94qvb",
+    "fields": {
+        "session_data": ".eJxVjDsOgzAQBe-ydWTZ_BYo03MGtD8HkggkMBXi7gkSDe2bmbeD0JKg3Y8H9LSlod9WW_pRoYUAt41JPjadQN80vWYn85SWkd2puIuurpvVvs_LvR0MtA7_Wjj4ULPGqrIszxpUUySLAX1DynksvFpAiiJcYln7qFxIhlSjhjIyHD9Rzzxo:1mFZtY:45FWA4fJZ_OcKECZsiY0ozZkEvwKCK6Nlos94QTEwto",
+        "expire_date": "2021-08-30T10:31:04.758Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jqgjuiqyi6dyynqance2rwg8blu3i9nu",
+    "fields": {
+        "session_data": ".eJxVjE1ugzAQhe8ya4RsJ2DCsvueAY1nxoWW2qmxq0YRd4-pssnmSe97P3egWK4xTAvDGMq6NkCYMox3MIf8FAx5yTcY-wauaSGBEfSgVKsUVILJl--KTDU0y6-Uv-pg3xuYsOR5Kpuk_3PQ8MIc0peEI-BPDB-xpRhyWlx7VNpnurXvkWV9e3ZfDmbc5romp5UeHPu-F3MyF8vCFsVrqy7I7uTPikVb9ESus92gPLszGYuDZd15B_sDRp9UUQ:1mHuhk:XPF_sUZW87BgFGpW2geeSF3N0gQmTY2QDM21_BmisrM",
+        "expire_date": "2021-09-05T21:08:32.344Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "o8e4dnfk3zab4q5k4uzasoxkj6y4dwy7",
+    "fields": {
+        "session_data": ".eJxVjDkOgzAUBe_iOrJstm8o0-cM1t8cSCKQMFSIuwckiqR9M282E3Fd-rhmneMgpjPe3H43Qn7reAJ54ficLE_jMg9kT8VeNNvHJPq5X-5foMfcH28m73wgSU2jRVm0ICqAmjy4FoXKVDlRD5iYqYY6uCRUcQEYQHyd6Igyzovptn3_AlRtPGg:1mGHQf:hdc59cDy6bs6bjfpO3i_ggMlWxxS_77a8SQJip13OaE",
+        "expire_date": "2021-09-01T09:00:09.162Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "o9rdnpb7xmdaflfn3y03hcsuxi9kio4o",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgpUNduvcMZIYZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uzsur0uxGmh9Qd8B3rbdZprusykd4VfdCmrzPL83K4fwcFW_nWiayxgTgPg7jOjcDCgJItmBGZutwbFguYUyIPPpjM1CcHGICtz6TeHwqLORw:1mGKxC:A0hrAfxWpaNv85B0cPVls-t0XM7T4AacgHfzWE4Qic8",
+        "expire_date": "2021-09-01T12:45:58.445Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pnw97dmx9a5blknm1b5ltsanmwddgtg9",
+    "fields": {
+        "session_data": ".eJxVjjkOgzAURO_iOrJstg-U6XMG9Bc7kCAbAa4Qdw9EFEn7ZuZpNtVhWvsuLW7uBlGtsur2ywj57cIZyAvDM2qOYZ0H0mdFX-miH1HceL-6f4Iel_5YM1ljaxJfVS7LswbECaDzFkyDQrkvjDgL6JmphLI2XqjgDLAGsaWnQ8oxTTF8X4Y0jgfAeVXttu8fj6BCjQ:1mc9L5:Rd8xjRsj8JcJqxGx9mhS8PknIaGyplfwqFnAzO4TX4U",
+        "expire_date": "2021-10-31T16:48:47.093Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "tr0fa120z1oqx3qw1r63v03mn8e8kpxv",
+    "fields": {
+        "session_data": "eyJjYXJ0Ijp7fX0:1mck3a:LYJ-YfY7Nqm-xSmknu8l3SPPeiXYfIZT9juxGstLHQE",
+        "expire_date": "2021-11-02T08:01:10.154Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ul9673wc8z3a8acaj478esak13jfwhmm",
+    "fields": {
+        "session_data": ".eJxVjjkOgzAURO_iOrJstg-U6XMG9Bc7kCAbAa4Qdw9EFEn7ZuZpNtVhWvsuLW7uBlGtsur2ywj57cIZyAvDM2qOYZ0H0mdFX-miH1HceL-6f4Iel_5YM1ljaxJfVS7LswbECaDzFkyDQrkvjDgL6JmphLI2XqjgDLAGsaWnQ8oxTTF8X4Y0jgfAeVXttu8fj6BCjQ:1mICKf:9sqE9uGkt0ev6qHAFUifC9kN5EZeHAg4p-sTK9mHJIo",
+        "expire_date": "2021-09-06T15:57:53.929Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uyixh751on9nfxt1xxfrnngzz6i9efpk",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgpUNduvcMZIYZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uzsur0uxGmh9Qd8B3rbdZprusykd4VfdCmrzPL83K4fwcFW_nWiayxgTgPg7jOjcDCgJItmBGZutwbFguYUyIPPpjM1CcHGICtz6TeHwqLORw:1mGGhJ:uBmjS9GngqKU86haFvU1QZPJdl-QrJXeyUkzpWwCvJY",
+        "expire_date": "2021-09-01T08:13:17.901Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vgirrophiav10ww04mv5ou5qv1qo1e8m",
+    "fields": {
+        "session_data": "eyJjYXJ0Ijp7fX0:1mHu1o:UjD7U3LpqASKdmV8Jb_4qUEKW5XqBdBoA4kYzdROfXo",
+        "expire_date": "2021-09-05T20:25:12.693Z"
+    }
+},
+{
+    "model": "core.gamme",
+    "pk": 1,
+    "fields": {
+        "name": "Kelly"
+    }
+},
+{
+    "model": "core.gamme",
+    "pk": 2,
+    "fields": {
+        "name": "Gliss"
+    }
+},
+{
+    "model": "core.category",
+    "pk": 1,
+    "fields": {
+        "name": "cheuveux",
+        "slug": "cheuveux-1",
+        "actif": true
+    }
+},
+{
+    "model": "core.category",
+    "pk": 2,
+    "fields": {
+        "name": "Soin Corp",
+        "slug": "soin-corp-2",
+        "actif": true
+    }
+},
+{
+    "model": "core.category",
+    "pk": 3,
+    "fields": {
+        "name": "professionelle",
+        "slug": "professionelle-none",
+        "actif": true
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 1,
+    "fields": {
+        "name": "shampoing",
+        "slug": "shampoing-1",
+        "actif": true,
+        "category": 1
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 2,
+    "fields": {
+        "name": "Produits de Bain",
+        "slug": "produits-de-bain-none",
+        "actif": true,
+        "category": 2
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 3,
+    "fields": {
+        "name": "shampoin",
+        "slug": "shampoin-none",
+        "actif": true,
+        "category": 1
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 4,
+    "fields": {
+        "name": "Gel douche",
+        "slug": "gel-douche-none",
+        "actif": true,
+        "category": 2
+    }
+},
+{
+    "model": "core.product",
+    "pk": 1,
+    "fields": {
+        "name": "Shampoing clarifiant « kelly de sunlab »",
+        "slug": "shampoing-clarifiant-kelly-de-sunlab-1",
+        "sous_category": 1,
+        "description": "<p><strong>shampoing clarifiant.pour usage avant soin keratine et proteines</strong></p>\r\n<p><strong>Principaux synonymes</strong></p>\r\n<p>Noms fran&ccedil;ais&nbsp;:</p>\r\n<ul>\r\n<li>(d,l)-Propyl&egrave;ne glycol</li>\r\n<li>(R,S)-Propyl&egrave;ne glycol</li>\r\n<li>1,2-DIHYDROXYPROPANE</li>\r\n<li>1,2-Propanediol</li>\r\n<li>1,2-Propylene glycol</li>\r\n<li>Glycol de propyl&egrave;ne</li>\r\n<li>METHYLETHYLENE GLYCOL</li>\r\n<li>PROPANE-1,2-DIOL</li>\r\n<li>Propanediol-1,2</li>\r\n<li>Propyl&egrave;ne glycol</li>\r\n</ul>\r\n<p>Noms anglais&nbsp;:</p>\r\n<ul>\r\n<li>MONOPROPYLENE GLYCOL</li>\r\n<li>Propylene glycol</li>\r\n</ul>",
+        "price": "1800.00",
+        "old_price": "3580.00",
+        "volume": 1000,
+        "gamme": 1,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "R",
+        "created": "2021-08-15T11:52:21.789Z",
+        "updated": "2021-08-18T14:11:35.204Z",
+        "cheveux": [
+            1
+        ],
+        "parfum": [
+            1,
+            2,
+            3
+        ],
+        "tag": []
+    }
+},
+{
+    "model": "core.product",
+    "pk": 2,
+    "fields": {
+        "name": "Le Petit Marseillais Shampooing Blond Ensoleillé Cheveux Blonds à Châtains Clairs",
+        "slug": "le-petit-marseillais-shampooing-blond-ensoleille-cheveux-blonds-a-chatains-clairs-2",
+        "sous_category": 1,
+        "description": "<p>Gr&acirc;ce &agrave; sa recette &agrave; l&rsquo;extrait de camomille et huile de germes de bl&eacute;, le shampooing soin pour<strong>&nbsp;cheveux blond</strong>s hydrate et illumine vos cheveux sur toute la longueur. Lavage apr&egrave;s lavage, renforcez la brillance et la souplesse de vos cheveux blonds gr&acirc;ce aux vertus adoucissantes et nourrissantes de ces deux ingr&eacute;dients.</p>",
+        "price": "1800.00",
+        "old_price": "39200.00",
+        "volume": 250,
+        "gamme": null,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-08-16T09:01:19.412Z",
+        "updated": "2021-08-18T14:40:03.339Z",
+        "cheveux": [],
+        "parfum": [
+            1,
+            2
+        ],
+        "tag": []
+    }
+},
+{
+    "model": "core.product",
+    "pk": 3,
+    "fields": {
+        "name": "Sunsilk Shampoing Brillance Des Cheveux Noirs",
+        "slug": "sunsilk-shampoing-brillance-des-cheveux-noirs-3",
+        "sous_category": 1,
+        "description": "<p>Brillance des cheveux ab&icirc;m&eacute;s tout au long de la journ&eacute;e</p>",
+        "price": "400.00",
+        "old_price": null,
+        "volume": 350,
+        "gamme": null,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-08-16T09:07:40.821Z",
+        "updated": "2021-08-23T13:51:31.567Z",
+        "cheveux": [
+            1
+        ],
+        "parfum": [],
+        "tag": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "core.product",
+    "pk": 4,
+    "fields": {
+        "name": "Evoluderm Shampoing Régénérant - À La Kératine - Cheveux Colorés",
+        "slug": "evoluderm-shampoing-regenerant-a-la-keratine-cheveux-colores-4",
+        "sous_category": 1,
+        "description": "<p>Sp&eacute;cialement formul&eacute; pour les cheveux color&eacute;s, ce shampoing prolonge l&rsquo;intensit&eacute; et l'&eacute;clat de la couleur gr&acirc;ce &agrave; sa formule enrichie en K&eacute;ratine. Pour une chevelure instantan&eacute;ment r&eacute;g&eacute;n&eacute;r&eacute;e et une couleur vibrante pour longtemps.<br /><strong>Conseil d&rsquo;utilisation:</strong><br />Appliquez ce shampoing sur cheveux humides des longueurs jusqu'aux pointes en massant par mouvements circulaires. Rincez abondamment &agrave; l'eau claire. Renouvelez l'op&eacute;ration si n&eacute;cessaire. Compl&eacute;tez votre routine de soin pour cheveux color&eacute;s en utilisant le Masque Cheveux R&eacute;g&eacute;n&eacute;rant Color.</p>\r\n<p>Achetez ce Shampooing sur notre site Jumia Alg&eacute;rie au meilleur prix qu'il soit et recevez les chez vous d&egrave;s maintenant<strong>.</strong></p>\r\n<h2 class=\"hdr -upp -fs14 -m -pam\">PRINCIPALES CARACT&Eacute;RISTIQUES</h2>\r\n<div class=\"markup -pam\">\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Produit: Shampooing</li>\r\n<li>Marque : Evoluderm</li>\r\n<li>Type de cheveux: Color&eacute;s/M&eacute;ch&eacute;s&nbsp;</li>\r\n<li>Soin lissant&nbsp;</li>\r\n<li>Cat&eacute;gorie : Color</li>\r\n<li>Pour toute la famille</li>\r\n<li>Cheveux Fragiles &amp; cassants</li>\r\n<li>Contenance : 400 ml</li>\r\n<li>Made in france</li>\r\n</ul>\r\n</div>",
+        "price": "450.00",
+        "old_price": null,
+        "volume": 450,
+        "gamme": null,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-08-16T09:15:46.266Z",
+        "updated": "2021-08-23T14:34:39.410Z",
+        "cheveux": [
+            2
+        ],
+        "parfum": [],
+        "tag": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "core.product",
+    "pk": 5,
+    "fields": {
+        "name": "Schwarzkopf Gliss Hair Repair Ultimate Huile Precieuse",
+        "slug": "schwarzkopf-gliss-hair-repair-ultimate-huile-precieuse-5",
+        "sous_category": 1,
+        "description": "<p>Le&nbsp;<strong>Schwarzkopf Gliss Hair Repair Ultimate Huile Precieuse</strong>&nbsp;pour assainir le cuir chevelu et redonner de l&rsquo;&eacute;clat aux cheveux.<br /><br />Fructis associe dans sa formule l&rsquo;Extrait de Th&eacute; vert au Zinc Pyrithione antibact&eacute;rien. Elle &eacute;limine les pellicules*, assainit le cuir chevelu et redonne de l&rsquo;&eacute;clat aux cheveux.<br />Shampooing Fortifiant sans paraben.<br /><br />Superfruits for superhair**<br />Les nouvelles formules Fructis sont sans paraben et enrichies en concentr&eacute; d&rsquo;actifs fortifiants de fruits, une combinaison exclusive, &agrave; l&rsquo;efficacit&eacute; prouv&eacute;e, d&rsquo;extraits de fruits et de plantes et de vitamines B3 &amp; B6 ; pour des cheveux plus sains, plus forts.<strong><br /></strong>Achetez ce produit sur notre<strong>&nbsp;site Jumia Alg&eacute;rie&nbsp;</strong>et recevez les chez vous dans les plus brefs d&eacute;lais.</p>\r\n<h2 class=\"hdr -upp -fs14 -m -pam\">PRINCIPALES CARACT&Eacute;RISTIQUES</h2>\r\n<div class=\"markup -pam\">\r\n<ul>\r\n<li>shampoing</li>\r\n<li>Type de cheveux : Cheveux secs</li>\r\n<li>Soin sp&eacute;cifique cheveux : D&eacute;m&ecirc;lant, Protecteur</li>\r\n<li>Liquide</li>\r\n</ul>\r\n</div>",
+        "price": "600.00",
+        "old_price": null,
+        "volume": 200,
+        "gamme": 2,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-08-16T09:17:23.477Z",
+        "updated": "2021-08-23T14:42:35.642Z",
+        "cheveux": [
+            1
+        ],
+        "parfum": [],
+        "tag": [
+            4
+        ]
+    }
+},
+{
+    "model": "core.product",
+    "pk": 6,
+    "fields": {
+        "name": "Garnier Fructis Pack Garnier Routine Hair Food papaye 3 Unités",
+        "slug": "garnier-fructis-pack-garnier-routine-hair-food-papaye-3-unites-6",
+        "sous_category": 2,
+        "description": "<header class=\"-pvs -bb\">\r\n<h2 class=\"-fs20 -m -phm -pvxs\">D&eacute;tails</h2>\r\n</header>\r\n<div class=\"markup -mhm -pvl -oxa -sc\">Pack Garnier Routine Hair Food papaye<strong>&nbsp;3 Unit&eacute;s :</strong><br />Shampoing 350Ml:\r\n<ul>\r\n<li>Super r&eacute;paration</li>\r\n<li>cheveux pourris</li>\r\n<li>Mousse l&eacute;g&egrave;re nettoie et hydrate les cheveux, en toute l&eacute;g&egrave;ret&eacute;.</li>\r\n<li>Shampooing &agrave; l'papaia,&nbsp; compos&eacute; &agrave; 98% d'ingr&eacute;dients d'origine naturelle.</li>\r\n<li>Les cheveux sont hydrat&eacute;s et l&eacute;gers.</li>\r\n<li>Sans silicone pour un toucher naturel.</li>\r\n</ul>\r\n<br />Apr&eacute;s Shampooing 350Ml:\r\n<ul>\r\n<li>Garnier Fructis Hair Food D&eacute;m&ecirc;lant R&eacute;parateur &agrave; Papaye pour Cheveux Ab&icirc;m&eacute;s 350 ml</li>\r\n<li>Soin d&eacute;m&ecirc;lant Vega et &agrave; 98% d'ingr&eacute;dients d'origine naturelle</li>\r\n<li>R&eacute;pare et d&eacute;m&ecirc;le</li>\r\n<li>Des cheveux d&eacute;m&ecirc;l&eacute;s, r&eacute;par&eacute;s en profondeur et en pleine sant&eacute;</li>\r\n<li>Sa texture fondante p&eacute;n&egrave;tre instantan&eacute;ment et se rince facilement&nbsp;</li>\r\n</ul>\r\n<br />Masque 390Ml:\r\n<ul>\r\n<li>Masque r&eacute;parateur &agrave; la Papaye pour les cheveux ab&icirc;m&eacute;s</li>\r\n<li>Adapt&eacute; &agrave; tous les types de cheveux qu'ils soient lisses ou boucl&eacute;s</li>\r\n<li>Formule v&eacute;gane aux huiles v&eacute;g&eacute;tales compos&eacute;e &agrave; 98% d'ingr&eacute;dients d'origine naturelle et biod&eacute;gradable &agrave; 96%</li>\r\n<li>Test&eacute;e dermatologiquement, Sans silicone pour un toucher naturel</li>\r\n</ul>\r\n</div>",
+        "price": "190.00",
+        "old_price": "350.00",
+        "volume": 350,
+        "gamme": null,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-08-16T09:19:28.817Z",
+        "updated": "2021-08-16T09:20:16.625Z",
+        "cheveux": [],
+        "parfum": [],
+        "tag": []
+    }
+},
+{
+    "model": "core.product",
+    "pk": 7,
+    "fields": {
+        "name": "Gel douche Kelly",
+        "slug": "gel-douche-kelly-7",
+        "sous_category": 4,
+        "description": "<p>Gel douche gourmand aux particules naturel</p>",
+        "price": "800.00",
+        "old_price": "1000.00",
+        "volume": 250,
+        "gamme": 1,
+        "actif": true,
+        "new": true,
+        "top": false,
+        "status": "P",
+        "created": "2021-08-23T13:59:34.618Z",
+        "updated": "2021-08-23T14:31:50.890Z",
+        "cheveux": [],
+        "parfum": [
+            1,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "tag": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 1,
+    "fields": {
+        "photo": "images/produits/1_TZ8bVrg.jpg",
+        "produit": 1
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 2,
+    "fields": {
+        "photo": "images/produits/2_uzwZ7vX.jpg",
+        "produit": 1
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 3,
+    "fields": {
+        "photo": "images/produits/ref.jpg",
+        "produit": 1
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 4,
+    "fields": {
+        "photo": "images/produits/1_dBtjAlj.jpg",
+        "produit": 2
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 5,
+    "fields": {
+        "photo": "images/produits/2_751jpdE.jpg",
+        "produit": 2
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 6,
+    "fields": {
+        "photo": "images/produits/3_DjMiOzK.jpg",
+        "produit": 2
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 7,
+    "fields": {
+        "photo": "images/produits/1.png",
+        "produit": 3
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 8,
+    "fields": {
+        "photo": "images/produits/77_2ZLmEwh.png",
+        "produit": 7
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 9,
+    "fields": {
+        "photo": "images/produits/55_BD3WcFg.png",
+        "produit": 7
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 10,
+    "fields": {
+        "photo": "images/produits/63.png",
+        "produit": 7
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 11,
+    "fields": {
+        "photo": "images/produits/8.png",
+        "produit": 4
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 12,
+    "fields": {
+        "photo": "images/produits/57_bl5dkPL.png",
+        "produit": 5
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 13,
+    "fields": {
+        "photo": "images/produits/57.png",
+        "produit": 5
+    }
+},
+{
+    "model": "coupons.coupon",
+    "pk": 1,
+    "fields": {
+        "code": "fbfdb",
+        "valid_from": "2021-08-17T11:16:35Z",
+        "valid_to": "2021-08-17T11:16:37Z",
+        "discount_amount": 100,
+        "discount_percentage": 0,
+        "active": true,
+        "stock": 1000,
+        "used": 0,
+        "created": "2021-08-17T11:16:42.381Z",
+        "updated": "2021-08-17T11:16:42.381Z"
+    }
+},
+{
+    "model": "coupons.coupon",
+    "pk": 2,
+    "fields": {
+        "code": "coup",
+        "valid_from": "2021-08-18T15:44:05Z",
+        "valid_to": "2021-10-19T16:42:23Z",
+        "discount_amount": 600,
+        "discount_percentage": 0,
+        "active": true,
+        "stock": 994,
+        "used": 13,
+        "created": "2021-08-18T15:44:21.137Z",
+        "updated": "2021-10-17T16:42:44.447Z"
+    }
+},
+{
+    "model": "delivery.wilaya",
+    "pk": 1,
+    "fields": {
+        "name": "Blida",
+        "mat": 9,
+        "price": "800.00",
+        "active": true
+    }
+},
+{
+    "model": "delivery.commune",
+    "pk": 1,
+    "fields": {
+        "wilaya": 1,
+        "name": "Blida"
+    }
+},
+{
+    "model": "delivery.commune",
+    "pk": 2,
+    "fields": {
+        "wilaya": 1,
+        "name": "Boufarik"
+    }
+},
+{
+    "model": "delivery.commune",
+    "pk": 3,
+    "fields": {
+        "wilaya": 1,
+        "name": "bouarafa"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 1,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "siham",
+        "address": "Centre zabana blida",
+        "phone": "0553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T15:29:24.788Z",
+        "updated": "2021-08-18T15:29:24.866Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 2,
+    "fields": {
+        "first_name": "naimi",
+        "last_name": "naila",
+        "address": "Centre zabana blida",
+        "phone": "+213553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T15:42:00.265Z",
+        "updated": "2021-08-18T15:42:00.333Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 3,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "siham",
+        "address": "Centre zabana blida",
+        "phone": "0553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T15:43:12.890Z",
+        "updated": "2021-08-18T15:43:12.973Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 4,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "siham",
+        "address": "Centre zabana blida",
+        "phone": "0553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T15:45:12.079Z",
+        "updated": "2021-08-18T15:45:12.149Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 5,
+    "fields": {
+        "first_name": "ameur",
+        "last_name": "REDHA",
+        "address": "zabana",
+        "phone": "0557035553",
+        "email": "a.aredha15@gmail.com",
+        "wilaya": 1,
+        "commune": 2,
+        "created": "2021-08-18T16:03:50.611Z",
+        "updated": "2021-08-18T16:05:09.923Z",
+        "note": "",
+        "paid": true,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 6,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "Naimi",
+        "address": "Centre zabana blida",
+        "phone": "+33553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T19:38:23.351Z",
+        "updated": "2021-08-18T19:38:23.351Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "0.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 7,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "Naimi",
+        "address": "Centre zabana blida",
+        "phone": "+33553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T19:39:26.574Z",
+        "updated": "2021-08-18T19:39:26.575Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "0.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 8,
+    "fields": {
+        "first_name": "djamel",
+        "last_name": "Naimi",
+        "address": "Centre zabana blida",
+        "phone": "+213553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T19:39:55.882Z",
+        "updated": "2021-08-18T19:39:55.882Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "0.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 9,
+    "fields": {
+        "first_name": "Bendjebba",
+        "last_name": "Rania",
+        "address": "Centre zabana blida",
+        "phone": "+213553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T20:11:21.312Z",
+        "updated": "2021-08-18T20:11:21.312Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "0.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 10,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "siham",
+        "address": "Centre zabana blida",
+        "phone": "0553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-18T20:12:16.547Z",
+        "updated": "2021-08-18T20:12:16.547Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "0.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 11,
+    "fields": {
+        "first_name": "naimi",
+        "last_name": "naila",
+        "address": "Centre zabana blida",
+        "phone": "+213553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-19T07:12:17.129Z",
+        "updated": "2021-08-19T07:12:17.186Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 12,
+    "fields": {
+        "first_name": "naimi",
+        "last_name": "naila",
+        "address": "Centre zabana blida",
+        "phone": "+213553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-19T07:19:13.473Z",
+        "updated": "2021-08-19T07:19:13.529Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 13,
+    "fields": {
+        "first_name": "Rym",
+        "last_name": "Bouchetara",
+        "address": "Cité 206 logements, batiment 14, numéro 12, Ouled Yaïch Blida.",
+        "phone": "0556096455",
+        "email": "Hildweig@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-22T15:36:07.186Z",
+        "updated": "2021-08-22T15:36:07.220Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 14,
+    "fields": {
+        "first_name": "Rafik",
+        "last_name": "ouednna",
+        "address": "Centre zabana blida",
+        "phone": "0552185412",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-22T20:26:36.042Z",
+        "updated": "2021-08-22T20:26:36.083Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 15,
+    "fields": {
+        "first_name": "Rym",
+        "last_name": "Bouchetara",
+        "address": "Cité 206 logements, batiment 14, numéro 12, Ouled Yaïch Blida.",
+        "phone": "0556096455",
+        "email": "Hildweig@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-23T13:31:21.182Z",
+        "updated": "2021-08-23T13:31:21.212Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 16,
+    "fields": {
+        "first_name": "Rym",
+        "last_name": "Bouchetara",
+        "address": "Cité 206 logements, batiment 14, numéro 12, Ouled Yaïch Blida.",
+        "phone": "0556096455",
+        "email": "Hildweig@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-23T13:32:58.270Z",
+        "updated": "2021-08-23T13:32:58.300Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 17,
+    "fields": {
+        "first_name": "Rym",
+        "last_name": "Bouchetara",
+        "address": "Cité 206 logements, batiment 14, numéro 12, Ouled Yaïch Blida.",
+        "phone": "0556096455",
+        "email": "Hildweig@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-23T13:33:14.011Z",
+        "updated": "2021-08-23T13:33:14.048Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 18,
+    "fields": {
+        "first_name": "Rym",
+        "last_name": "Bouchetara",
+        "address": "Cité 206 logements, batiment 14, numéro 12, Ouled Yaïch Blida.",
+        "phone": "0556096455",
+        "email": "Hildweig@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-23T13:34:35.425Z",
+        "updated": "2021-08-23T13:34:35.453Z",
+        "note": "",
+        "paid": false,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 19,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "siham",
+        "address": "Centre zabana blida",
+        "phone": "0553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 1,
+        "created": "2021-08-23T14:11:43.453Z",
+        "updated": "2021-08-23T14:12:53.537Z",
+        "note": "",
+        "paid": true,
+        "confirmer": true,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 20,
+    "fields": {
+        "first_name": "Taki",
+        "last_name": "Naimi",
+        "address": "Centre zabana blida",
+        "phone": "0553961612",
+        "email": "inter.taki@gmail.com",
+        "wilaya": 1,
+        "commune": 2,
+        "created": "2021-10-17T16:42:44.306Z",
+        "updated": "2021-10-17T16:43:11.522Z",
+        "note": "",
+        "paid": true,
+        "confirmer": false,
+        "coupon": null,
+        "delivery_cost": "800.00"
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 4,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 2,
+    "fields": {
+        "order": 1,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 1,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 3,
+    "fields": {
+        "order": 2,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 4,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 4,
+    "fields": {
+        "order": 2,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 3,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 5,
+    "fields": {
+        "order": 3,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 4,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 6,
+    "fields": {
+        "order": 3,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 3,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 7,
+    "fields": {
+        "order": 4,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 2,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 8,
+    "fields": {
+        "order": 5,
+        "product": 3,
+        "price": "400.00",
+        "quantity": 1,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 9,
+    "fields": {
+        "order": 5,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 1,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 10,
+    "fields": {
+        "order": 6,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 1,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 11,
+    "fields": {
+        "order": 7,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 1,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 12,
+    "fields": {
+        "order": 8,
+        "product": 3,
+        "price": "400.00",
+        "quantity": 1,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 13,
+    "fields": {
+        "order": 9,
+        "product": 3,
+        "price": "400.00",
+        "quantity": 3,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 14,
+    "fields": {
+        "order": 10,
+        "product": 3,
+        "price": "400.00",
+        "quantity": 4,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 15,
+    "fields": {
+        "order": 11,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 4,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 16,
+    "fields": {
+        "order": 11,
+        "product": 3,
+        "price": "400.00",
+        "quantity": 25,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 17,
+    "fields": {
+        "order": 12,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 2,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 18,
+    "fields": {
+        "order": 13,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 2,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 19,
+    "fields": {
+        "order": 14,
+        "product": 2,
+        "price": "1800.00",
+        "quantity": 3,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 20,
+    "fields": {
+        "order": 15,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 2,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 21,
+    "fields": {
+        "order": 19,
+        "product": 7,
+        "price": "800.00",
+        "quantity": 4,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "order.orderitem",
+    "pk": 22,
+    "fields": {
+        "order": 20,
+        "product": 1,
+        "price": "1800.00",
+        "quantity": 3,
+        "pointure": "",
+        "taille": "",
+        "couleur": ""
+    }
+},
+{
+    "model": "atributes.cheveux",
+    "pk": 1,
+    "fields": {
+        "name": "Cheveux secs"
+    }
+},
+{
+    "model": "atributes.cheveux",
+    "pk": 2,
+    "fields": {
+        "name": "cheuveux colorés"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 1,
+    "fields": {
+        "name": "Fraise"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 2,
+    "fields": {
+        "name": "Chocolat"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 3,
+    "fields": {
+        "name": "vanille"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 4,
+    "fields": {
+        "name": "Aloé vera"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 5,
+    "fields": {
+        "name": "Yaourt"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 6,
+    "fields": {
+        "name": "Ananas"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 7,
+    "fields": {
+        "name": "Péche"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 8,
+    "fields": {
+        "name": "Citron"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 1,
+    "fields": {
+        "name": "cheuveux noirs"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 2,
+    "fields": {
+        "name": "shampoins"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Méches"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 4,
+    "fields": {
+        "name": "new"
+    }
+},
+{
+    "model": "business.business",
+    "pk": 1,
+    "fields": {
+        "name": "Sunlab",
+        "logo": "images/logos/Logo_SUN_.png",
+        "logo_negatif": "images/slides/negatif-logo.png",
+        "title": "Sunlab cosmetics",
+        "adress": "Rue Ramoul Abdelaziz, Blida 09000",
+        "email": "contact@sunlab-dz.com",
+        "phone": "0550 600 900",
+        "about": "<h3>Page arrive bient&ocirc;t...JH</h3>\r\n<p>&nbsp;</p>",
+        "facebook": null,
+        "insta": null
+    }
+},
+{
+    "model": "business.slide",
+    "pk": 1,
+    "fields": {
+        "photo": "None/big_slide.jpg",
+        "url": "http://127.0.0.1:8000/produits/produit/sunsilk-shampoing-brillance-des-cheveux-noirs-3/"
+    }
+},
+{
+    "model": "business.banner",
+    "pk": 1,
+    "fields": {
+        "photo": "None/banner_2541.jpg",
+        "title": "Soin réparateur de fourches instantané",
+        "sub_title": "Nouvelle collection a moins 50%",
+        "url": "http://127.0.0.1:8000/produits/produit/shampoing-clarifiant-kelly-de-sunlab-1/"
+    }
+}
+]

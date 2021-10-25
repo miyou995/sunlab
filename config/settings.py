@@ -11,7 +11,7 @@ SECRET_KEY = config("SECRET_KEY", default="django-insecure$sunlab.settings")
 
 DEBUG = config("DEBUG", default=True, cast=bool)
 
-ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="127.0.0.1,localhost,192.168.1.2", cast=Csv())
+ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="127.0.0.1,localhost,192.168.1.3", cast=Csv())
 
 
 INSTALLED_APPS = [
@@ -95,16 +95,7 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'shop4000',
-#         'USER': 'postgres',#octopus
-#         'PASSWORD': 'miyou0209',#octopus2021@! 
-#         'HOST': '127.0.0.1',
-#         'PORT': '5432',
-#     }
-# }
+
 # ==============================================================================
 # AUTHENTICATION AND AUTHORIZATION SETTINGS
 # ==============================================================================
@@ -173,27 +164,25 @@ CART_SESSION_ID = 'cart'
 # THIRD-PARTY SETTINGS
 # ==============================================================================
 
-
 # ==============================================================================
 # FIRST-PARTY SETTINGS
 # ==============================================================================
 
 sunlab_ENVIRONMENT = config("sunlab_ENVIRONMENT", default="local")
 
+# Celery Configuration Options
+CELERY_TIMEZONE = "Australia/Tasmania"
+CELERY_TASK_TRACK_STARTED = True
+CELERY_TASK_TIME_LIMIT = 30 * 60
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+SERVER_EMAIL = 'octopus.emailing@gmail.com'
+EMAIL_HOST_USER = 'octopus.emailing@gmail.com'
+EMAIL_HOST_PASSWORD = 'miyou0209'
 
-# CSRF_COOKIE_SECURE = True
-# CSRF_COOKIE_HTTPONLY = True
-
-# SECURE_HSTS_SECONDS = 60 * 60 * 24 * 7 * 52  # one year
-# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-# SECURE_SSL_REDIRECT = True
-# SECURE_BROWSER_XSS_FILTER = True
-# SECURE_CONTENT_TYPE_NOSNIFF = True
-# SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
-
-# SESSION_COOKIE_SECURE = True
-
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
 
 try:
     from .local_settings import *

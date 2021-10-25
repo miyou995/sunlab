@@ -1,12 +1,11 @@
 {% load i18n %} 
 {% load static %}
-    <!-- Block2 -->
     <div class="product">
         <div class="product-img">
             <a href="{{product.get_absolute_url}}">
                 {% if product.photos.all.0 %}
-                    <div class="product-preview">
-                        <img style="  width: 100%; height: auto;" src="{{product.photos.all.0.photo.url}}" alt="{{product.name}}">
+                    <div class="product-preview" style="min-height: 250px;">
+                        <img class="img-fluid" style=" width: 100%; height: auto;" src="{{product.photos.all.0.photo.url}}" alt="{{product.name}}">
                     </div>
                 {% else %}
                     <div class="product-preview">
@@ -30,14 +29,12 @@
             <h3 class="product-name"><a href="{{product.get_absolute_url}}">{{product.name|truncatewords:5}}</a></h3>
             <h4 class="product-price">{{product.price}} DA </h4>
             <div class="product-btns">
-                {% comment %}
-                <button class="add-to-compare text-uppercase">
-                    <a href=""> 
-                        <i class="fa fa-shopping-cart"></i>
-                    </a>
-                    <span class="tooltipp">Ajouter au panier</span>
-                </button>
-                {% endcomment %}
+                    <button class="add-to-compare text-uppercase">
+                        <a href=""> 
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                        <span class="tooltipp">Ajouter au panier</span>
+                    </button>
                 <button class="quick-view text-uppercase">
                     <a href="{% url 'core:productDetail' product.slug %}"> 
                         <i class="fa fa-eye"></i>

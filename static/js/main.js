@@ -127,6 +127,13 @@
 	      {
 	        breakpoint: 480,
 	        settings: {
+	          slidesToShow: 2,
+	          slidesToScroll: 1,
+	        }
+	      },
+		  {
+	        breakpoint: 250,
+	        settings: {
 	          slidesToShow: 1,
 	          slidesToScroll: 1,
 	        }
@@ -252,8 +259,4 @@
 	$('.the-slider').on('click', function (e) {
 		alert('defbtbhtrtr');
 	});
-
-
-
-
 })(jQuery);

@@ -13,7 +13,7 @@ from cart.cart import Cart
 from coupons.models import Coupon
 from delivery.models import Wilaya, Commune
 from business.models import Business
-
+from .tasks import order_created
 
 def order_create_one_product(request,product_id=None):
     form = OrderFormWithQuantity()
@@ -34,7 +34,7 @@ def order_create_one_product(request,product_id=None):
             print('le formulaire est valid', quantity)
             # print('ORDER ITEM', order.quantity)
             OrderItem.objects.create(order=order,product=product,price=product.price,quantity=quantity)
-                # order_created.delay(order.id)
+            order_created.delay(order.id)
                 # order = Order.objects.get(id=order_id)
                 # subject = f'Commande N°: {order.id}'
                 # message = f'Chére {order.first_name},\n\n' \
