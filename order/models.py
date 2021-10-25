@@ -14,9 +14,7 @@ coupon just in case the coupon gets deleted, we will still have a way to retriev
 # translation
 from django.utils.translation import gettext_lazy as _
 
-
 class Order(models.Model):
-    
     first_name    = models.CharField(verbose_name="Nom" , max_length=50)
     last_name     = models.CharField(verbose_name="Prenom" , max_length=50)
     address       = models.CharField(verbose_name="Adresse" , max_length=250)

@@ -1,0 +1,397 @@
+[
+{
+    "model": "core.gamme",
+    "pk": 1,
+    "fields": {
+        "name": "Kelly"
+    }
+},
+{
+    "model": "core.gamme",
+    "pk": 2,
+    "fields": {
+        "name": "Gliss"
+    }
+},
+{
+    "model": "core.category",
+    "pk": 1,
+    "fields": {
+        "name": "cheuveux",
+        "slug": "cheuveux-1",
+        "actif": true
+    }
+},
+{
+    "model": "core.category",
+    "pk": 2,
+    "fields": {
+        "name": "Soin Corp",
+        "slug": "soin-corp-2",
+        "actif": true
+    }
+},
+{
+    "model": "core.category",
+    "pk": 3,
+    "fields": {
+        "name": "professionelle",
+        "slug": "professionelle-none",
+        "actif": true
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 1,
+    "fields": {
+        "name": "shampoing",
+        "slug": "shampoing-1",
+        "actif": true,
+        "category": 1
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 2,
+    "fields": {
+        "name": "Produits de Bain",
+        "slug": "produits-de-bain-none",
+        "actif": true,
+        "category": 2
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 3,
+    "fields": {
+        "name": "shampoin",
+        "slug": "shampoin-none",
+        "actif": true,
+        "category": 1
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 4,
+    "fields": {
+        "name": "Gel douche",
+        "slug": "gel-douche-none",
+        "actif": true,
+        "category": 2
+    }
+},
+{
+    "model": "core.subcategory",
+    "pk": 5,
+    "fields": {
+        "name": "Professionnel",
+        "slug": "professionnel-none",
+        "actif": true,
+        "category": 3
+    }
+},
+{
+    "model": "core.product",
+    "pk": 1,
+    "fields": {
+        "name": "Shampoing clarifiant",
+        "slug": "shampoing-clarifiant-1",
+        "sous_category": 1,
+        "description": "<p><strong>shampoing clarifiant.pour usage avant soin keratine et proteines</strong></p>\r\n<p><strong>Principaux synonymes</strong></p>\r\n<p>Noms fran&ccedil;ais&nbsp;:</p>\r\n<ul>\r\n<li>(d,l)-Propyl&egrave;ne glycol</li>\r\n<li>(R,S)-Propyl&egrave;ne glycol</li>\r\n<li>1,2-DIHYDROXYPROPANE</li>\r\n<li>1,2-Propanediol</li>\r\n<li>1,2-Propylene glycol</li>\r\n<li>Glycol de propyl&egrave;ne</li>\r\n<li>METHYLETHYLENE GLYCOL</li>\r\n<li>PROPANE-1,2-DIOL</li>\r\n<li>Propanediol-1,2</li>\r\n<li>Propyl&egrave;ne glycol</li>\r\n</ul>\r\n<p>Noms anglais&nbsp;:</p>\r\n<ul>\r\n<li>MONOPROPYLENE GLYCOL</li>\r\n<li>Propylene glycol</li>\r\n</ul>",
+        "price": "1800.00",
+        "old_price": "3580.00",
+        "volume": 1000,
+        "gamme": 1,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "R",
+        "created": "2021-08-15T11:52:21.789Z",
+        "updated": "2021-10-25T07:57:54.172Z",
+        "cheveux": [
+            1
+        ],
+        "parfum": [
+            1,
+            2,
+            3
+        ],
+        "tag": []
+    }
+},
+{
+    "model": "core.product",
+    "pk": 7,
+    "fields": {
+        "name": "Gel douche Kelly",
+        "slug": "gel-douche-kelly-7",
+        "sous_category": 4,
+        "description": "<p>Gel douche gourmand aux particules naturel</p>",
+        "price": "800.00",
+        "old_price": "1000.00",
+        "volume": 250,
+        "gamme": 1,
+        "actif": true,
+        "new": true,
+        "top": false,
+        "status": null,
+        "created": "2021-08-23T13:59:34.618Z",
+        "updated": "2021-10-25T07:49:41.168Z",
+        "cheveux": [],
+        "parfum": [
+            1,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12
+        ],
+        "tag": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "core.product",
+    "pk": 8,
+    "fields": {
+        "name": "Apr�s Shampoing sans sulfate",
+        "slug": "apres-shampoing-sans-sulfate-none",
+        "sous_category": 1,
+        "description": "<p><strong>Apres Shampoing sans sulfate&nbsp; k&eacute;ratine th&eacute;rapy aux extraits naturels.</strong></p>",
+        "price": "1600.00",
+        "old_price": null,
+        "volume": 350,
+        "gamme": 1,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-10-25T07:56:52.054Z",
+        "updated": "2021-10-25T07:56:52.054Z",
+        "cheveux": [],
+        "parfum": [
+            4,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+        ],
+        "tag": []
+    }
+},
+{
+    "model": "core.product",
+    "pk": 9,
+    "fields": {
+        "name": "Shampoing sans sulfate",
+        "slug": "shampoing-sans-sulfate-9",
+        "sous_category": 1,
+        "description": "<p><strong>Shampoing sans sulfate &nbsp;k&eacute;ratine th&eacute;rapy aux extraits naturels.</strong></p>",
+        "price": "1000.00",
+        "old_price": null,
+        "volume": 350,
+        "gamme": 1,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-10-25T07:59:32.449Z",
+        "updated": "2021-10-25T08:03:12.316Z",
+        "cheveux": [
+            2
+        ],
+        "parfum": [
+            4,
+            14,
+            15,
+            17,
+            19,
+            20
+        ],
+        "tag": [
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "core.product",
+    "pk": 10,
+    "fields": {
+        "name": "Shampoing clarifiant - professionnel -",
+        "slug": "shampoing-clarifiant-professionnel-10",
+        "sous_category": 5,
+        "description": "<p><strong>shampoing clarifiant.pour usage avant soin keratine et proteines.</strong></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://www.csst.qc.ca/prevention/reptox/section-glossaire/glossaire/Pages/glossaire.aspx#Formule%20mol%C3%A9culaire%20brute\"><strong>Formule mol&eacute;culaire brute</strong></a>&nbsp;:&nbsp;C<sub>3</sub>H<sub>8</sub>O<sub>2</sub></p>\r\n<p><strong>Principaux synonymes</strong></p>\r\n<p>Noms fran&ccedil;ais&nbsp;:</p>\r\n<ul>\r\n<li>(d,l)-Propyl&egrave;ne glycol</li>\r\n<li>(R,S)-Propyl&egrave;ne glycol</li>\r\n<li>1,2-DIHYDROXYPROPANE</li>\r\n<li>1,2-Propanediol</li>\r\n<li>1,2-Propylene glycol</li>\r\n<li>Glycol de propyl&egrave;ne</li>\r\n<li>METHYLETHYLENE GLYCOL</li>\r\n<li>PROPANE-1,2-DIOL</li>\r\n<li>Propanediol-1,2</li>\r\n<li>Propyl&egrave;ne glycol</li>\r\n</ul>\r\n<p>Noms anglais&nbsp;:</p>\r\n<ul>\r\n<li>MONOPROPYLENE GLYCOL</li>\r\n<li>Propylene glycol</li>\r\n</ul>",
+        "price": "1.00",
+        "old_price": null,
+        "volume": 1000,
+        "gamme": 1,
+        "actif": true,
+        "new": true,
+        "top": true,
+        "status": "N",
+        "created": "2021-10-25T08:07:17.388Z",
+        "updated": "2021-10-25T08:07:39.603Z",
+        "cheveux": [],
+        "parfum": [
+            21,
+            22
+        ],
+        "tag": []
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 14,
+    "fields": {
+        "photo": "images/produits/apre_sh_bl�.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 15,
+    "fields": {
+        "photo": "images/produits/apres_sh_ail.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 16,
+    "fields": {
+        "photo": "images/produits/apres_sh_aloe_vera.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 17,
+    "fields": {
+        "photo": "images/produits/apres_sh_argan.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 18,
+    "fields": {
+        "photo": "images/produits/apres_sh_avocat.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 19,
+    "fields": {
+        "photo": "images/produits/apres_sh_black_pearl.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 20,
+    "fields": {
+        "photo": "images/produits/apres_sh_colore.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 21,
+    "fields": {
+        "photo": "images/produits/apres_sh_karit�.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 22,
+    "fields": {
+        "photo": "images/produits/apres_sh_soie.png",
+        "produit": 8
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 23,
+    "fields": {
+        "photo": "images/produits/Aloe_vera.png",
+        "produit": 9
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 24,
+    "fields": {
+        "photo": "images/produits/avocats.png",
+        "produit": 9
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 25,
+    "fields": {
+        "photo": "images/produits/sh_ail.png",
+        "produit": 9
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 26,
+    "fields": {
+        "photo": "images/produits/bl�.png",
+        "produit": 9
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 27,
+    "fields": {
+        "photo": "images/produits/shampoo_black_pearl.png",
+        "produit": 9
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 28,
+    "fields": {
+        "photo": "images/produits/shArgan.png",
+        "produit": 9
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 29,
+    "fields": {
+        "photo": "images/produits/soie.png",
+        "produit": 9
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 30,
+    "fields": {
+        "photo": "images/produits/sh_silver.png",
+        "produit": 10
+    }
+},
+{
+    "model": "core.photoproduct",
+    "pk": 31,
+    "fields": {
+        "photo": "images/produits/sh_clarifiant.png",
+        "produit": 10
+    }
+}
+]

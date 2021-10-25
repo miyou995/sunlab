@@ -26,12 +26,12 @@ def order_create_one_product(request,product_id=None):
         # coupon.stock -= 1
         # coupon.used += 1
         # coupon.save()
-        print('le FORMULAIRE', form)
+        # print('le FORMULAIRE', form)
         if form.is_valid():
             cd = form.cleaned_data
             quantity=cd['quantity']
             order = form.save()
-            print('le formulaire est valid', quantity)
+            # print('le formulaire est valid', quantity)
             # print('ORDER ITEM', order.quantity)
             OrderItem.objects.create(order=order,product=product,price=product.price,quantity=quantity)
             order_created.delay(order.id)
@@ -61,9 +61,9 @@ def order_create(request):
     print('request', request.method)
     if request.method == 'POST':
         form = OrderCreateForm(request.POST)
-        print('le formulaire ', form)
+        # print('le formulaire ', form)
         if form.is_valid():
-            print('le formulaire est valid')
+            # print('le formulaire est valid')
             order = form.save()
             order.delivery_cost = order.wilaya.price
             order.save()
@@ -81,6 +81,8 @@ def order_create(request):
             except:
                 pass
             cart.clear()
+            order_created.delay(order.id)
+
             total_price = cart.get_total_price_after_discount()
             total_price_with_delivery = total_price + order.delivery_cost
             context = {

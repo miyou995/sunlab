@@ -171,15 +171,18 @@ CART_SESSION_ID = 'cart'
 sunlab_ENVIRONMENT = config("sunlab_ENVIRONMENT", default="local")
 
 # Celery Configuration Options
-CELERY_TIMEZONE = "Australia/Tasmania"
+# CELERY_TIMEZONE = "Australia/Tasmania"
 CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 30 * 60
 
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#...
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 SERVER_EMAIL = 'octopus.emailing@gmail.com'
 EMAIL_HOST_USER = 'octopus.emailing@gmail.com'
-EMAIL_HOST_PASSWORD = 'miyou0209'
+EMAIL_HOST_PASSWORD = 'Mi.you20905991'
 
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False

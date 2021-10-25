@@ -1,0 +1,198 @@
+[
+{
+    "model": "atributes.cheveux",
+    "pk": 1,
+    "fields": {
+        "name": "Cheveux secs"
+    }
+},
+{
+    "model": "atributes.cheveux",
+    "pk": 2,
+    "fields": {
+        "name": "cheuveux colorés"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 1,
+    "fields": {
+        "name": "Fraise"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 2,
+    "fields": {
+        "name": "Chocolat"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 3,
+    "fields": {
+        "name": "vanille"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 4,
+    "fields": {
+        "name": "Aloé vera"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 5,
+    "fields": {
+        "name": "Yaourt"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 6,
+    "fields": {
+        "name": "Ananas"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 7,
+    "fields": {
+        "name": "Péche"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 8,
+    "fields": {
+        "name": "Citron"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 9,
+    "fields": {
+        "name": "Bambou"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 10,
+    "fields": {
+        "name": "Lavande"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 11,
+    "fields": {
+        "name": "Désir tropical"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 12,
+    "fields": {
+        "name": "Sensuelle"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 13,
+    "fields": {
+        "name": "Black"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 14,
+    "fields": {
+        "name": "Pearl"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 15,
+    "fields": {
+        "name": "Protein de soie"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 16,
+    "fields": {
+        "name": "Multi color"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 17,
+    "fields": {
+        "name": "Ail"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 18,
+    "fields": {
+        "name": "Argan"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 19,
+    "fields": {
+        "name": "Beur de Karité"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 20,
+    "fields": {
+        "name": "avocat"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 21,
+    "fields": {
+        "name": "Clarifiant"
+    }
+},
+{
+    "model": "atributes.parfum",
+    "pk": 22,
+    "fields": {
+        "name": "Silver"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 1,
+    "fields": {
+        "name": "cheuveux noirs"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 2,
+    "fields": {
+        "name": "shampoins"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Méches"
+    }
+},
+{
+    "model": "atributes.tag",
+    "pk": 4,
+    "fields": {
+        "name": "new"
+    }
+}
+]
